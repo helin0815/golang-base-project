@@ -1,0 +1,3 @@
+include:
+  - project: 'serverless/ci-templates'
+    file: '/go.yaml'

@@ -1,0 +1,35 @@
+run:
+  timeout: 10m
+  concurrency: 4
+  issues-exit-code: 2
+  modules-download-mode: readonly
+  skip-dirs:
+    - third-party/
+    - vendor/
+
+linters:
+  enable:
+    - gofmt
+    - goimports
+    - misspell
+    - nakedret
+    - unconvert
+    - gocyclo
+    - gocognit
+  disable:
+    - typecheck
+
+linters-settings:
+  gocyclo:
+    # Default: 30 (but we recommend 10-20)
+    min-complexity: 15
+  gocognit:
+    # Default: 30 (but we recommend 10-20)
+    min-complexity: 15
+
+issues:
+  exclude-use-default: false
+  max-issues-per-linter: 0
+  max-same-issues: 0
+  exclude:
+    - composites

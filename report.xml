@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="60" failures="0" errors="0" time="4.790113">
+	<testsuite tests="0" failures="0" time="0.000000" name="gitlabee.chehejia.com/k8s/liks-gitops" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="gitlabee.chehejia.com/k8s/liks-gitops/cmd" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="gitlabee.chehejia.com/k8s/liks-gitops/hack/dalgen" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="gitlabee.chehejia.com/k8s/liks-gitops/hack/dbmigrate" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="gitlabee.chehejia.com/k8s/liks-gitops/internal/app" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="1" failures="0" time="0.470000" name="gitlabee.chehejia.com/k8s/liks-gitops/internal/config" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/config" name="TestAutomaticEnv" time="0.000000"></testcase>
+	</testsuite>
+	<testsuite tests="48" failures="0" time="0.354000" name="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_List/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_List/found_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_List" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Create/create_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Create/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Create" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Update/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Update/update_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Update" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Find/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Find/found_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Find" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Delete/found_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Delete/delete_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Delete/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestAccount_Delete" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_List/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_List/found_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_List" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Create/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Create/create_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Create" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Update/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Update/update_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Update" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Find/found_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Find/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Find" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Delete/found_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Delete/delete_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Delete/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestCluster_Delete" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_List/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_List/found_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_List" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Create/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Create/create_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Create" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Update/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Update/update_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Update" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Find/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Find/found_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Find" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Delete/delete_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Delete/ok" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Delete/found_error" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/controllers" name="TestRole_Delete" time="0.000000"></testcase>
+	</testsuite>
+	<testsuite tests="3" failures="0" time="0.619000" name="gitlabee.chehejia.com/k8s/liks-gitops/internal/dal" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/dal" name="TestCryptoSerializer_encrypt" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/dal" name="TestNewCryptoSerializer" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/dal" name="TestCryptoSerializer_EncryptDecrypt" time="0.000000"></testcase>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="gitlabee.chehejia.com/k8s/liks-gitops/internal/dal/query" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="gitlabee.chehejia.com/k8s/liks-gitops/internal/dto" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="gitlabee.chehejia.com/k8s/liks-gitops/internal/entities" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000000" name="gitlabee.chehejia.com/k8s/liks-gitops/internal/errors" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="1" failures="0" time="0.902000" name="gitlabee.chehejia.com/k8s/liks-gitops/internal/events" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/events" name="TestEvents" time="0.000000"></testcase>
+	</testsuite>
+	<testsuite tests="1" failures="0" time="0.830000" name="gitlabee.chehejia.com/k8s/liks-gitops/internal/repo" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/internal/repo" name="TestClusterDBQuerier_Get" time="0.000000"></testcase>
+	</testsuite>
+	<testsuite tests="1" failures="0" time="2.124000" name="gitlabee.chehejia.com/k8s/liks-gitops/pkg/eventbus" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/pkg/eventbus" name="TestLocalEB" time="1.000000"></testcase>
+	</testsuite>
+	<testsuite tests="3" failures="0" time="1.388000" name="gitlabee.chehejia.com/k8s/liks-gitops/pkg/futils" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/pkg/futils" name="TestMd5" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/pkg/futils" name="TestPKCS5Padding" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/pkg/futils" name="TestPKCS5UnPadding" time="0.000000"></testcase>
+	</testsuite>
+	<testsuite tests="2" failures="0" time="1.669000" name="gitlabee.chehejia.com/k8s/liks-gitops/pkg/tablesqls" timestamp="2024-02-26T14:10:01+08:00">
+		<properties>
+			<property name="go.version" value="go1.20.5 darwin/arm64"></property>
+		</properties>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/pkg/tablesqls" name="TestGen" time="0.000000"></testcase>
+		<testcase classname="gitlabee.chehejia.com/k8s/liks-gitops/pkg/tablesqls" name="TestFakeMigrate" time="0.000000"></testcase>
+	</testsuite>
+</testsuites>
