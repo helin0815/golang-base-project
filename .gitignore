@@ -33,3 +33,6 @@ output
 vendor
 .version
 .env.local
+# report
+report.json
+report.mxl
